@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body class="ss-header">
+    <section >
+       <nav>
+           <div class="nav-links" id="navLinks">
+            <span class="material-icons"  onclick="hideMenu()">
+                close
+                </span>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="profile.html">PROFILE</a></li>
+                   <li><a href="">RECRUIT LABOUR</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+               </ul>
+           </div>
+           <span class="material-icons" onclick="showMenu()">
+            menu
+            </span>
+       </nav>
+    </section>
+     
+    <section class="box">
+            <div >
+                <table >
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="image/profile.jpg" alt="profile picture" class="profile">
+                            </td>
+                            <td class="box-text">
+                                <h1> Nezuko Chan</h1><br><br>
+                                <h1>Username: nezuko009</h1><br><br>
+                                <h1>Email : krishreturn99@gmail.com</h1><br><br>
+                                <h1>Bio: Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. 
+                                Consectetuer vestibulum, nunc urna lectus, erat ligula.
+                                Hendrerit nam, lectus ante, ut lorem eros.
+                                Consectetuer vestibulum, nunc urna lectus, erat ligula.
+                                Consectetuer vestibulum, nunc urna lectus, erat ligula.
+                                Consectetuer vestibulum, nunc urna lectus, erat ligula.
+                                Consectetuer vestibulum, nunc urna lectus, erat ligula.</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+    
+    
+    </section>
+    
+
+
+    <section class="footer">
+        <div class="bottom-container">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula.<br> Hendrerit nam, lectus ante, ut lorem eros.</p>
+           <div class="media">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            </div>
+            <p class="copy" >© 2021 Labour Recruitment Site.</p>
+          </div>
+          
+    
+    
+    
+        </section>
+    
+    
+    
+    
+    
+    
+    <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right = "0";
+         }
+         function hideMenu(){
+             navLinks.style.right = "-200px";
+         }
+     </script>
+
+
+
+</body>
+</html>

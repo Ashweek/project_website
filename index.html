@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labour Recruitment Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+       <nav>
+          <a href="index.html" ><img src="image/logo.png" alt="logo" class="logo"></a>
+           <div class="nav-links" id="navLinks">
+            <span class="material-icons"  onclick="hideMenu()">
+                close
+                </span>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="profile.html">PROFILE</a></li>
+                   <li><a href="">RECRUIT LABOUR</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+               </ul>
+           </div>
+           <span class="material-icons" onclick="showMenu()">
+            menu
+            </span>
+       </nav>
+         <div class="text-box">
+             <h1>"No human masterpiece has been created without great labour"</h1>
+             <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.<br> Curabitur wisi, quisque vel eu, rutrum nam.</p>
+              <a href="signup.html" class="btn">SIGN UP</a>
+              <a href="login.html" class="btn">LOG IN</a>
+            </div>
+    </section>
+    <section class="footer">
+        <div class="bottom-container">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula.<br> Hendrerit nam, lectus ante, ut lorem eros.</p>
+           <div class="media">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            </div>
+            <p class="copy" >© 2021 Labour Recruitment Site.</p>
+          </div>
+          
+    
+    
+    
+        </section>
+    
+    
+    
+    
+    
+    
+    <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right = "0";
+         }
+         function hideMenu(){
+             navLinks.style.right = "-200px";
+         }
+     </script>
+
+
+
+</body>
+</html>
